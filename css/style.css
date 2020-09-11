@@ -1,0 +1,266 @@
+body{
+	/*background-image:  url("https://i.postimg.cc/qvhdjCCB/back.png");*/
+  background: -webkit-linear-gradient(rgba(233, 111, 62, 0.8), rgba(203, 85, 48, 0.8)), url("https://i.postimg.cc/qvhdjCCB/back.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+ /* background: black;*/
+  overflow: scroll;
+   font-family: sans-serif;
+	/*background-color: #f5603B;
+	opacity: 0.6;*/
+
+}
+
+
+* {
+  box-sizing: border-box;
+}
+.educ{
+	margin-left: 160px;
+  margin-right:160px;
+  background-color: white;
+  padding:80px;
+  border-radius: 5%;
+
+
+}
+form{
+  /*display:inline-block;*/
+  float:right;
+  clear:both;
+
+}
+#EmailAddress{
+  width: 15%;
+  padding: 12px 20px;
+ /* margin: 8px 0;*/
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+p{
+  font-weight: normal;
+}
+
+.flex{
+  border-radius: 5px;
+  /*background-color: #f2f2f2;*/
+  padding: 20px;
+  display:flex;
+ /* clear: both;*/
+
+}
+.image{
+  float:left;
+  padding:10px;
+}
+
+.container {
+  padding: 16px;
+  background-color: white;
+  
+
+ 
+ }
+ input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+ /* margin: 8px 0;*/
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  outline: none;
+ /* display:inline-block;*/
+  /*clear: both;*/
+
+ /* margin-bottom: 20px;*/
+} 
+.code {
+  width: 40%;
+  padding: 12px 20px;
+ /* margin: 8px 0;*/
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.name{
+  float:left;
+
+} 
+.country{
+  
+  /*padding: 12px 20px;
+ /* margin: 8px 0;*/
+  /*border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;*/*/
+  float:right;
+}
+
+
+input[type=text]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+p{
+	font-weight: bold;
+}
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+.fa fa-caret-right {
+  border: solid #B6B5B8;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 10px;
+  color:#B6B5B8;
+  
+}
+header{
+  /*margin:0 auto;*/
+  /*padding-top: 20px;*/
+  /*border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding-top:40px;
+  margin-top: 10px;
+*/
+/*padding-top: -100px;
+margin-top: 0px;
+height:150px;*/
+
+}
+nav{
+  padding:20px;
+  width:100%;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-top: -100px;
+}
+li{
+  list-style-type: none;
+  margin: 0 2vw;
+  font-size: 1.5vh;
+  color:#B6B5B8;
+}
+a{
+  text-decoration: none;
+  color:#B6B5B8;
+}
+nav{
+  width: 50vw;
+  background-color: #F4F3F8;
+}
+ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+a:hover{
+  color: #FC6440;
+}
+button:hover{
+  color: #FC6440;
+}
+button{
+  padding:10px;
+  border-radius: 4px;
+
+
+}
+.buck{
+  position:absolute;
+  right: 180px;
+  padding:10px;
+
+}
+input[type=checkbox] {
+display:none;
+}
+ 
+input#thing1[type=checkbox] + label
+{
+background-image: url(card1.jpg);
+
+border-color: white;
+border-style: solid;
+height: 200px;
+width: 200px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+input#thing2[type=checkbox] + label
+{
+background-image: url("https://i.postimg.cc/XJ86xNBj/card-6.png");
+background-repeat: no-repeat;
+background-size: cover;
+border-color: white;
+border-style: solid;
+height: 80px;
+width: 210px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+input#thing3[type=checkbox] + label
+{
+background-image: url(" https://i.postimg.cc/J0GYJRbd/card1.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+border-color: white;
+border-style: solid;
+height: 80px;
+width: 210px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+input#thing4[type=checkbox] + label
+{
+background-image: url("https://i.postimg.cc/Hk5KBWFq/card-2.png");
+background-repeat: no-repeat;
+background-size: cover;
+border-color: white;
+border-style: solid;
+height: 80px;
+width: 210px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+input#thing1[type=checkbox]:checked + label
+{
+border-color: red;
+border-style: solid;
+height: 200px;
+width: 200px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+input#thing2[type=checkbox]:checked + label
+{
+border-color: red;
+border-style: solid;
+height: 200px;
+width: 200px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+input#thing3[type=checkbox]:checked + label
+{
+border-color: red;
+border-style: solid;
+height: 200px;
+width: 200px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+input#thing4[type=checkbox]:checked + label
+{
+border-color: red;
+border-style: solid;
+height: 200px;
+width: 200px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+/*body{
+  margin: 0;
+}*/
